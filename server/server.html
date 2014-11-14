@@ -1,0 +1,43 @@
+<html>
+<body>
+<div class="container" style="width: 500px;">
+
+    <br>
+    <form action="/peer" method="post" class="form-horizontal">
+        <div class="form-group">
+            <label class="col-md-3 control-label">id: </label>
+            <div class="col-md-5">
+                  <input type="text" class="form-control" name="id" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3 control-label">addr: </label>
+            <div class="col-md-5">
+                <input type="text" class="form-control" name="addr" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-10">
+                <button type="submit" class="btn btn-info">submit</button>
+            </div>
+        </div>
+    </form>
+
+    <form action="/peer" method="get" class="form-horizontal">
+        <div class="form-group">
+            <label class="col-md-3 control-label">id: </label>
+            <div class="col-md-5">
+                <input type="text" class="form-control" name="id" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-10">
+                <button type="submit" class="btn btn-info">submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
